@@ -4,7 +4,7 @@ metadata:
   name: product
   namespace: ms 
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       project: ms
@@ -19,8 +19,7 @@ spec:
       - name: registry-pull-secret
       containers:
       - name: product
-        image: 192.168.31.70/microservice/product:2019-07-10-21-34-34
-        imagePullPolicy: Always
+        image: www.unlazy.cn/microservice/product:2020-09-12-14-01-40
         ports:
           - protocol: TCP
             containerPort: 8010 

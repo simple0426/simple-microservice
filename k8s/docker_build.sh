@@ -1,6 +1,6 @@
 #!/bin/bash
 
-docker_registry=192.168.31.70
+docker_registry=www.unlazy.cn
 kubectl create secret docker-registry registry-pull-secret --docker-server=$docker_registry --docker-username=admin --docker-password=Harbor12345 --docker-email=admin@ctnrs.com -n ms
 
 service_list="eureka-service gateway-service order-service product-service stock-service portal-service"

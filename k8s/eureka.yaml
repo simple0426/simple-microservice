@@ -52,7 +52,7 @@ spec:
       - name: registry-pull-secret
       containers:
       - name: eureka
-        image: 192.168.31.70/microservice/eureka:2019-07-10-21-33-14
+        image: www.unlazy.cn/microservice/eureka:2020-09-12-13-58-26
         ports:
           - protocol: TCP
             containerPort: 8888
