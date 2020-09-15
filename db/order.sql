@@ -15,6 +15,7 @@ MySQL - 5.6.43 : Database - tb_order
 CREATE DATABASE /*!32312 IF NOT EXISTS*/`tb_order` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
 
 /*Table structure for table `orders` */
+use tb_order;
 
 CREATE TABLE `orders` (
   `id` int(11) NOT NULL AUTO_INCREMENT,

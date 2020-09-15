@@ -15,6 +15,7 @@ MySQL - 5.6.43 : Database - tb_stock
 CREATE DATABASE /*!32312 IF NOT EXISTS*/`tb_stock` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
 
 /*Table structure for table `stock` */
+use tb_stock;
 
 CREATE TABLE `stock` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
